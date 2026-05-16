@@ -119,6 +119,8 @@ python -m pip install -r requirements.txt
 
 The Streamlit dashboard displays five interactive charts across the Risk Overview, ML Late-Delivery Prediction, and Bottleneck Analysis sections. These charts help users explore delivery risk, program-level readiness, late-delivery probability, bottleneck drivers, and production cell risk.
 
+Four of these visualizations are also saved as PNG files in the `outputs/figures/` folder when `python src/main.py` is run. The **Average Risk by Production Cell** chart is generated directly inside the Streamlit app and is not saved as a PNG output file.
+
 The dashboard also includes an additional interactive chart, **Average Risk by Production Cell**. This chart compares the average delivery risk score across each simulated production cell. It helps show whether certain cells may be experiencing higher operational pressure from schedule delays, material constraints, rework, machine availability, labor capacity, or quality-related holds. This view is useful for identifying where production managers may need to rebalance workload, review staffing, or investigate recurring bottlenecks.
 
 ---
