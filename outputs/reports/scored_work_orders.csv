@@ -1,0 +1,351 @@
+work_order_id,program,part_category,production_cell,priority_level,status,planned_start_date,planned_completion_date,forecast_completion_date,days_behind_schedule,material_available,supplier_delay_days,inspection_hold,quality_hold,rework_hours,defect_count,machine_availability_pct,labor_capacity_pct,estimated_cost_impact,delivery_risk_score,risk_category,primary_risk_driver,late_delivery_flag,late_delivery_probability,late_delivery_prediction
+WO-0001,Viper Ground,Ground Support Bracket,Cell A,Medium,Inspection,2026-05-08,2026-06-01,2026-05-26,0,True,0,True,False,3,0,100.0,96.7,709.63,17.2,Low,Inspection Hold,0,0.45740582182154244,0
+WO-0002,Atlas Comms,Ground Support Bracket,Cell A,Low,Ready for Delivery,2026-05-13,2026-06-11,2026-06-17,6,True,0,False,False,0,0,100.0,82.8,0.0,23.2,Low,Schedule Delay,1,0.6041616082903859,1
+WO-0003,Orion Sensor,Comms Enclosure,Cell E,Urgent,Rework,2026-04-13,2026-05-05,2026-05-05,0,True,0,False,False,1,0,100.0,91.2,145.51,19.4,Low,Priority Pressure,0,0.4191617769141079,0
+WO-0004,Falcon Shield,Guidance Assembly,Cell A,Medium,In Progress,2026-05-03,2026-05-17,2026-05-19,2,False,10,False,False,6,2,91.2,100.0,13350.34,61.4,High,Supplier / Material Delay,1,0.502508103095648,1
+WO-0005,Atlas Comms,Power Module,Cell A,Medium,Ready for Delivery,2026-04-10,2026-05-03,2026-05-11,8,False,7,False,False,6,0,77.2,84.4,11793.07,76.8,Critical,Supplier / Material Delay,1,0.6027472952717158,1
+WO-0006,Viper Ground,Flight Control Subassembly,Cell E,Medium,In Progress,2026-04-02,2026-04-07,2026-04-02,0,True,0,True,False,5,0,86.2,72.5,932.76,29.0,Low,Labor Capacity,0,0.3358290881668406,0
+WO-0007,Falcon Shield,Guidance Assembly,Cell C,Medium,Rework,2026-05-12,2026-06-14,2026-06-10,0,False,15,False,True,3,2,70.2,82.8,17890.12,80.8,Critical,Supplier / Material Delay,0,0.38090637732066585,0
+WO-0008,Orion Sensor,Power Module,Cell A,Low,Ready for Delivery,2026-05-10,2026-05-17,2026-05-18,1,True,0,False,True,4,2,93.4,83.7,3356.6,30.4,Medium,Quality / Rework,1,0.582245913605065,1
+WO-0009,Horizon ISR,Comms Enclosure,Cell B,High,Inspection,2026-05-18,2026-05-24,2026-05-21,0,True,0,False,False,2,1,87.6,69.6,967.13,25.6,Low,Priority Pressure,0,0.37741054772218435,0
+WO-0010,Falcon Shield,Power Module,Cell D,High,In Progress,2026-05-17,2026-06-06,2026-06-04,0,True,0,True,False,6,1,69.4,87.0,2187.91,40.2,Medium,Quality / Rework,0,0.3428341457202657,0
+WO-0011,Viper Ground,Flight Control Subassembly,Cell A,High,In Progress,2026-04-30,2026-06-03,2026-05-28,0,True,0,False,False,5,1,88.8,93.0,2152.25,20.8,Low,Priority Pressure,0,0.4947483744407192,0
+WO-0012,Viper Ground,Power Module,Cell A,Medium,Inspection,2026-04-07,2026-04-15,2026-04-17,2,True,0,True,False,6,1,100.0,92.6,1512.15,30.6,Medium,Quality / Rework,1,0.5864691170229048,1
+WO-0013,Viper Ground,Power Module,Cell A,Low,Ready for Delivery,2026-05-20,2026-06-15,2026-06-10,0,False,15,False,False,0,1,64.8,74.1,25915.54,61.8,High,Supplier / Material Delay,0,0.35114414726910226,0
+WO-0014,Atlas Comms,Sensor Housing,Cell A,Medium,Rework,2026-04-29,2026-06-01,2026-06-06,5,True,0,False,False,0,1,100.0,100.0,541.63,23.8,Low,Schedule Delay,1,0.5959314207687411,1
+WO-0015,Viper Ground,Sensor Housing,Cell A,High,In Progress,2026-04-02,2026-04-14,2026-04-07,0,True,0,False,False,8,0,93.4,100.0,1246.95,22.2,Low,Quality / Rework,0,0.48348258221291474,0
+WO-0016,Atlas Comms,Comms Enclosure,Cell E,Medium,Rework,2026-04-07,2026-04-25,2026-04-27,2,True,0,False,True,6,2,82.2,87.1,1412.85,42.4,Medium,Quality / Rework,1,0.6517366017900909,1
+WO-0017,Orion Sensor,Ground Support Bracket,Cell B,Urgent,Rework,2026-05-13,2026-05-29,2026-05-25,0,True,0,False,False,3,2,100.0,97.6,1863.9,27.8,Low,Priority Pressure,0,0.36930991327315366,0
+WO-0018,Horizon ISR,Power Module,Cell D,High,In Progress,2026-04-08,2026-04-24,2026-04-17,0,True,0,False,False,0,0,99.3,100.0,0.0,11.0,Low,Priority Pressure,0,0.34025983478054406,0
+WO-0019,Horizon ISR,Comms Enclosure,Cell B,Medium,In Progress,2026-04-21,2026-05-20,2026-05-17,0,True,0,False,False,0,0,96.4,94.4,0.0,5.0,Low,Priority Pressure,0,0.28015908656956734,0
+WO-0020,Viper Ground,Power Module,Cell A,Urgent,Ready for Delivery,2026-04-18,2026-05-18,2026-06-10,23,True,0,False,False,2,1,100.0,93.4,1505.71,55.6,High,Schedule Delay,1,0.6644766710161945,1
+WO-0021,Viper Ground,Guidance Assembly,Cell E,Urgent,Inspection,2026-05-13,2026-06-15,2026-06-13,0,True,0,False,True,7,0,80.9,97.9,1456.36,44.8,Medium,Quality / Rework,0,0.4153495268910777,0
+WO-0022,Falcon Shield,Guidance Assembly,Cell D,High,In Progress,2026-05-06,2026-05-19,2026-06-02,14,True,0,True,False,10,1,100.0,89.2,2750.28,67.8,High,Schedule Delay,1,0.6413285414656358,1
+WO-0023,Falcon Shield,Ground Support Bracket,Cell E,Medium,In Progress,2026-04-18,2026-05-09,2026-05-08,0,False,22,False,False,6,0,66.5,79.7,34467.86,67.4,High,Supplier / Material Delay,0,0.4339002110011363,0
+WO-0024,Orion Sensor,Power Module,Cell B,Low,Inspection,2026-04-30,2026-05-30,2026-06-06,7,True,0,True,False,1,0,95.4,100.0,218.14,31.8,Medium,Schedule Delay,1,0.594031587596203,1
+WO-0025,Orion Sensor,Power Module,Cell C,Medium,In Progress,2026-05-07,2026-05-30,2026-06-07,8,False,19,False,False,3,0,80.0,100.0,30983.74,79.8,Critical,Supplier / Material Delay,1,0.6964528315562887,1
+WO-0026,Horizon ISR,Ground Support Bracket,Cell E,Medium,In Progress,2026-04-19,2026-05-21,2026-05-26,5,True,0,False,False,4,0,81.4,51.6,724.35,40.6,Medium,Schedule Delay,1,0.4696525737943268,0
+WO-0027,Viper Ground,Comms Enclosure,Cell E,Medium,In Progress,2026-04-20,2026-05-05,2026-05-05,0,True,0,True,False,3,2,79.6,72.5,3070.07,36.8,Medium,Quality / Rework,0,0.5736256739084953,1
+WO-0028,Atlas Comms,Ground Support Bracket,Cell B,Medium,Inspection,2026-04-25,2026-05-07,2026-05-15,8,True,0,False,False,0,0,92.1,100.0,0.0,30.6,Medium,Schedule Delay,1,0.5955721221290592,1
+WO-0029,Viper Ground,Guidance Assembly,Cell E,Urgent,Ready for Delivery,2026-04-24,2026-04-30,2026-04-23,0,True,0,False,False,2,2,80.6,100.0,902.09,31.4,Medium,Priority Pressure,0,0.43485978496227073,0
+WO-0030,Orion Sensor,Flight Control Subassembly,Cell C,Medium,Rework,2026-05-22,2026-06-18,2026-06-16,0,True,0,True,False,5,1,71.6,93.5,1583.91,32.8,Medium,Machine Capacity,0,0.36363075493312647,0
+WO-0031,Atlas Comms,Power Module,Cell B,Medium,Inspection,2026-05-23,2026-06-08,2026-06-16,8,True,0,True,True,6,2,95.7,100.0,2676.35,64.6,High,Quality / Rework,1,0.7548133838516052,1
+WO-0032,Atlas Comms,Power Module,Cell C,Low,In Progress,2026-04-23,2026-05-12,2026-05-24,12,False,7,False,False,0,0,93.5,94.2,6588.93,60.8,High,Schedule Delay,1,0.6412753968873156,1
+WO-0033,Horizon ISR,Flight Control Subassembly,Cell E,High,Inspection,2026-05-24,2026-06-13,2026-06-07,0,True,0,False,False,4,0,76.2,93.1,574.6,21.6,Low,Priority Pressure,0,0.3960723984271999,0
+WO-0034,Atlas Comms,Ground Support Bracket,Cell D,Medium,In Progress,2026-04-11,2026-05-11,2026-05-04,0,True,0,False,False,0,0,73.3,86.6,0.0,15.0,Low,Machine Capacity,0,0.39738134725537827,0
+WO-0035,Falcon Shield,Ground Support Bracket,Cell D,Low,In Progress,2026-04-21,2026-05-09,2026-04-30,0,True,0,False,True,12,3,98.2,72.2,3889.47,45.4,Medium,Quality / Rework,0,0.41594595796291056,0
+WO-0036,Orion Sensor,Guidance Assembly,Cell E,Medium,Material Hold,2026-05-08,2026-06-03,2026-05-30,0,False,22,False,False,0,1,84.4,100.0,31651.31,52.8,Medium,Supplier / Material Delay,0,0.5499703298064276,1
+WO-0037,Atlas Comms,Ground Support Bracket,Cell D,Urgent,Ready for Delivery,2026-05-03,2026-06-03,2026-05-26,0,True,0,True,False,4,0,83.4,80.2,982.19,40.6,Medium,Priority Pressure,0,0.48491449170810336,0
+WO-0038,Viper Ground,Guidance Assembly,Cell D,Low,Material Hold,2026-04-19,2026-05-21,2026-05-21,0,True,0,False,False,4,1,67.0,100.0,1357.69,18.4,Low,Machine Capacity,0,0.37479207296659517,0
+WO-0039,Falcon Shield,Guidance Assembly,Cell A,High,Inspection,2026-05-07,2026-05-16,2026-05-22,6,True,0,False,False,2,1,100.0,58.8,689.55,44.8,Medium,Schedule Delay,1,0.6059415387449237,1
+WO-0040,Viper Ground,Flight Control Subassembly,Cell C,Low,Rework,2026-05-24,2026-05-31,2026-06-05,5,False,14,False,False,0,1,96.0,83.4,23422.53,62.8,High,Supplier / Material Delay,1,0.6498417380514692,1
+WO-0041,Orion Sensor,Flight Control Subassembly,Cell E,Urgent,Material Hold,2026-04-13,2026-05-13,2026-05-13,0,True,0,False,False,5,1,94.6,90.1,1624.07,27.8,Low,Priority Pressure,0,0.2945711548430425,0
+WO-0042,Viper Ground,Flight Control Subassembly,Cell B,High,Ready for Delivery,2026-05-20,2026-05-30,2026-06-01,2,True,0,True,False,4,2,95.6,100.0,2558.26,36.6,Medium,Quality / Rework,1,0.6695645777754056,1
+WO-0043,Orion Sensor,Flight Control Subassembly,Cell B,Urgent,In Progress,2026-05-02,2026-05-28,2026-06-07,10,True,0,False,False,0,1,98.4,100.0,463.44,52.8,Medium,Schedule Delay,1,0.5490007095728432,1
+WO-0044,Horizon ISR,Flight Control Subassembly,Cell A,Urgent,Inspection,2026-04-12,2026-04-24,2026-05-12,18,True,0,False,False,2,2,100.0,94.3,1773.32,58.4,High,Schedule Delay,1,0.5975341823445006,1
+WO-0045,Atlas Comms,Flight Control Subassembly,Cell B,Medium,Inspection,2026-05-15,2026-05-24,2026-05-25,1,True,0,False,True,11,0,100.0,77.8,1933.18,39.6,Medium,Quality / Rework,1,0.7239331690086478,1
+WO-0046,Horizon ISR,Guidance Assembly,Cell A,Urgent,In Progress,2026-04-26,2026-05-17,2026-05-15,0,False,24,True,False,2,0,97.7,83.8,34557.74,72.8,High,Supplier / Material Delay,0,0.3730598358360666,0
+WO-0047,Orion Sensor,Guidance Assembly,Cell C,Medium,Inspection,2026-05-23,2026-06-18,2026-07-07,19,True,0,False,False,2,0,86.6,88.2,372.18,39.8,Medium,Schedule Delay,1,0.6693922373986494,1
+WO-0048,Viper Ground,Sensor Housing,Cell E,Medium,Inspection,2026-04-27,2026-05-18,2026-05-27,9,True,0,False,False,0,0,86.2,93.4,0.0,33.8,Medium,Schedule Delay,1,0.5625725536126743,1
+WO-0049,Horizon ISR,Flight Control Subassembly,Cell B,Low,In Progress,2026-04-02,2026-04-30,2026-05-01,1,True,0,False,False,0,3,89.7,99.7,3449.91,11.6,Low,Quality / Rework,1,0.6237406316721981,1
+WO-0050,Falcon Shield,Sensor Housing,Cell E,Medium,Ready for Delivery,2026-04-22,2026-05-17,2026-05-07,0,False,17,False,False,10,0,82.5,100.0,29692.28,64.0,High,Supplier / Material Delay,0,0.39644269857628434,0
+WO-0051,Orion Sensor,Sensor Housing,Cell E,Low,In Progress,2026-04-21,2026-05-07,2026-05-14,7,False,19,False,False,1,0,98.4,100.0,21038.5,63.8,High,Supplier / Material Delay,1,0.6410401506234842,1
+WO-0052,Viper Ground,Flight Control Subassembly,Cell B,Medium,In Progress,2026-04-10,2026-04-20,2026-04-10,0,True,0,False,False,4,1,91.1,99.8,1668.96,13.4,Low,Quality / Rework,0,0.41693220891035804,0
+WO-0053,Atlas Comms,Power Module,Cell D,Low,Inspection,2026-05-23,2026-06-07,2026-06-07,0,False,9,False,False,8,0,94.2,84.3,13280.72,48.8,Medium,Supplier / Material Delay,0,0.3834658214310182,0
+WO-0054,Viper Ground,Power Module,Cell B,Low,In Progress,2026-05-14,2026-05-29,2026-06-07,9,True,0,True,False,0,0,100.0,85.3,0.0,36.8,Medium,Schedule Delay,1,0.5843423737750837,1
+WO-0055,Atlas Comms,Sensor Housing,Cell A,Urgent,In Progress,2026-05-18,2026-06-20,2026-06-25,5,True,0,True,False,7,2,96.3,100.0,3489.29,57.4,High,Priority Pressure,1,0.7144177362912956,1
+WO-0056,Atlas Comms,Comms Enclosure,Cell D,Medium,Ready for Delivery,2026-04-09,2026-04-29,2026-05-05,6,True,0,False,False,2,2,87.5,95.5,1923.65,32.6,Medium,Schedule Delay,1,0.6531856514130611,1
+WO-0057,Orion Sensor,Flight Control Subassembly,Cell C,Urgent,Inspection,2026-05-12,2026-05-24,2026-05-11,0,True,0,False,False,0,1,100.0,97.7,715.75,20.8,Low,Priority Pressure,0,0.3540412403234989,0
+WO-0058,Orion Sensor,Comms Enclosure,Cell B,Medium,In Progress,2026-05-01,2026-05-08,2026-05-08,0,True,0,False,False,0,1,84.8,76.7,567.3,16.8,Low,Machine Capacity,0,0.31789007224664345,0
+WO-0059,Atlas Comms,Comms Enclosure,Cell E,High,Material Hold,2026-03-31,2026-04-25,2026-04-25,0,True,0,False,False,3,2,86.0,74.4,2814.26,29.8,Low,Priority Pressure,0,0.3495222396874118,0
+WO-0060,Atlas Comms,Power Module,Cell E,Medium,Inspection,2026-05-14,2026-06-01,2026-05-29,0,True,0,False,False,0,4,82.0,83.6,3705.67,25.2,Low,Quality / Rework,0,0.4124483448102534,0
+WO-0061,Orion Sensor,Sensor Housing,Cell E,Medium,Material Hold,2026-04-08,2026-04-16,2026-04-12,0,False,5,False,False,2,2,87.2,83.4,7730.63,41.4,Medium,Supplier / Material Delay,0,0.33088040601762486,0
+WO-0062,Falcon Shield,Power Module,Cell C,Low,In Progress,2026-04-04,2026-04-21,2026-04-21,0,True,0,False,False,7,1,100.0,70.2,2514.08,21.6,Low,Quality / Rework,0,0.33653979735359246,0
+WO-0063,Orion Sensor,Ground Support Bracket,Cell C,Urgent,Material Hold,2026-05-14,2026-06-12,2026-06-07,0,False,15,False,True,8,2,86.0,88.1,27947.99,86.8,Critical,Supplier / Material Delay,0,0.3179094720868525,0
+WO-0064,Viper Ground,Sensor Housing,Cell D,Medium,Material Hold,2026-04-30,2026-05-06,2026-05-11,5,False,8,False,True,16,1,100.0,82.7,16769.94,87.0,Critical,Quality / Rework,1,0.653246160896826,1
+WO-0065,Atlas Comms,Power Module,Cell B,Low,In Progress,2026-04-21,2026-05-12,2026-05-01,0,True,0,True,False,6,1,81.3,91.3,1731.61,24.2,Low,Quality / Rework,0,0.4187475861059629,0
+WO-0066,Atlas Comms,Comms Enclosure,Cell C,Medium,Ready for Delivery,2026-05-03,2026-06-05,2026-06-06,1,False,13,False,True,11,2,100.0,100.0,20886.99,81.2,Critical,Supplier / Material Delay,1,0.7432046211215368,1
+WO-0067,Orion Sensor,Comms Enclosure,Cell C,High,In Progress,2026-03-31,2026-04-30,2026-04-30,0,True,0,True,False,3,2,99.4,81.2,2673.83,32.8,Medium,Priority Pressure,0,0.273796648602493,0
+WO-0068,Falcon Shield,Ground Support Bracket,Cell B,High,In Progress,2026-04-23,2026-05-25,2026-06-06,12,True,0,False,False,9,0,93.3,72.1,1625.89,64.6,High,Schedule Delay,1,0.6650127770394374,1
+WO-0069,Viper Ground,Comms Enclosure,Cell A,High,In Progress,2026-05-16,2026-05-26,2026-06-03,8,False,8,False,False,0,0,80.6,92.1,11310.51,72.8,High,Supplier / Material Delay,1,0.6273782078065029,1
+WO-0070,Atlas Comms,Flight Control Subassembly,Cell A,Urgent,In Progress,2026-05-02,2026-05-08,2026-05-16,8,True,0,False,False,2,1,95.6,72.3,918.23,58.2,High,Schedule Delay,1,0.5805796048042686,1
+WO-0071,Atlas Comms,Sensor Housing,Cell D,Medium,In Progress,2026-05-01,2026-05-14,2026-05-19,5,True,0,False,False,3,1,89.4,99.3,1539.52,28.0,Low,Schedule Delay,1,0.607027787334291,1
+WO-0072,Falcon Shield,Comms Enclosure,Cell A,Urgent,Material Hold,2026-05-14,2026-06-06,2026-05-31,0,False,21,True,True,3,2,72.3,100.0,28327.4,97.8,Critical,Supplier / Material Delay,0,0.543404798987097,1
+WO-0073,Atlas Comms,Sensor Housing,Cell E,Medium,Material Hold,2026-04-23,2026-05-17,2026-05-27,10,False,20,False,False,5,1,100.0,79.6,35656.98,90.8,Critical,Supplier / Material Delay,1,0.6354187892381032,1
+WO-0074,Falcon Shield,Comms Enclosure,Cell B,Low,Material Hold,2026-05-09,2026-06-03,2026-05-31,0,True,0,False,False,3,1,91.9,81.9,1310.36,11.0,Low,Quality / Rework,0,0.23552450618224344,0
+WO-0075,Horizon ISR,Sensor Housing,Cell D,High,Inspection,2026-04-24,2026-05-23,2026-05-31,8,True,0,False,False,0,0,71.1,78.3,0.0,50.6,Medium,Schedule Delay,1,0.542017520992851,1
+WO-0076,Horizon ISR,Comms Enclosure,Cell B,Low,In Progress,2026-04-19,2026-05-01,2026-05-12,11,True,0,True,True,10,5,98.2,100.0,3334.54,80.0,Critical,Quality / Rework,1,0.7355473278975481,1
+WO-0077,Horizon ISR,Comms Enclosure,Cell B,Medium,Material Hold,2026-04-05,2026-04-14,2026-04-14,0,True,0,True,False,4,1,99.0,90.9,1279.13,21.4,Low,Quality / Rework,0,0.208871039475414,0
+WO-0078,Viper Ground,Power Module,Cell A,High,Material Hold,2026-05-19,2026-06-13,2026-06-15,2,True,0,False,False,0,2,98.4,92.9,1627.1,23.0,Low,Priority Pressure,1,0.46587103044744055,0
+WO-0079,Viper Ground,Flight Control Subassembly,Cell C,High,Rework,2026-04-18,2026-05-08,2026-05-12,4,True,0,False,False,6,3,68.6,99.0,3468.03,50.6,Medium,Quality / Rework,1,0.662505673124694,1
+WO-0080,Viper Ground,Flight Control Subassembly,Cell B,High,In Progress,2026-05-10,2026-06-06,2026-06-16,10,True,0,False,True,4,2,74.8,65.8,1884.88,85.2,Critical,Schedule Delay,1,0.7048058305390921,1
+WO-0081,Atlas Comms,Ground Support Bracket,Cell E,Medium,In Progress,2026-04-13,2026-04-27,2026-04-28,1,True,0,False,False,10,1,68.4,88.4,3189.57,35.0,Medium,Quality / Rework,1,0.6967152950626031,1
+WO-0082,Orion Sensor,Comms Enclosure,Cell B,Medium,Ready for Delivery,2026-05-16,2026-06-10,2026-06-10,0,False,17,False,False,3,1,82.4,80.0,27081.94,61.0,High,Supplier / Material Delay,0,0.27513656889572125,0
+WO-0083,Falcon Shield,Comms Enclosure,Cell E,High,Ready for Delivery,2026-04-25,2026-05-24,2026-05-18,0,False,9,False,False,2,0,89.9,72.9,16275.1,56.4,High,Supplier / Material Delay,0,0.26226695063587974,0
+WO-0084,Atlas Comms,Comms Enclosure,Cell D,High,Rework,2026-05-24,2026-06-19,2026-06-20,1,True,0,False,False,2,1,100.0,81.8,1005.87,23.8,Low,Priority Pressure,1,0.539677901986582,1
+WO-0085,Atlas Comms,Sensor Housing,Cell A,Medium,Inspection,2026-04-18,2026-04-26,2026-04-26,0,True,0,False,False,0,0,100.0,59.5,0.0,14.0,Low,Labor Capacity,0,0.43518757493389604,0
+WO-0086,Horizon ISR,Guidance Assembly,Cell D,Medium,In Progress,2026-04-24,2026-04-30,2026-05-05,5,True,0,False,False,0,1,100.0,78.7,538.41,27.8,Low,Schedule Delay,1,0.5169134392301861,1
+WO-0087,Viper Ground,Sensor Housing,Cell A,Urgent,Inspection,2026-04-05,2026-04-18,2026-04-12,0,False,7,True,False,12,1,95.6,64.2,11285.06,82.6,Critical,Supplier / Material Delay,0,0.4226195424844741,0
+WO-0088,Horizon ISR,Comms Enclosure,Cell C,Low,Ready for Delivery,2026-05-21,2026-06-02,2026-05-29,0,False,17,False,False,2,1,86.7,73.3,27070.34,54.6,Medium,Supplier / Material Delay,0,0.28846795473634856,0
+WO-0089,Horizon ISR,Sensor Housing,Cell C,Medium,Inspection,2026-05-09,2026-06-06,2026-06-15,9,True,0,False,True,6,3,81.7,91.1,2813.38,67.6,High,Schedule Delay,1,0.7690896725080889,1
+WO-0090,Viper Ground,Flight Control Subassembly,Cell A,Medium,In Progress,2026-04-02,2026-04-26,2026-04-28,2,False,8,False,False,1,0,89.0,84.6,13762.94,48.0,Medium,Supplier / Material Delay,1,0.627243874591609,1
+WO-0091,Orion Sensor,Ground Support Bracket,Cell B,Medium,In Progress,2026-04-26,2026-05-02,2026-05-07,5,True,0,False,False,2,2,75.7,90.2,2270.41,34.4,Medium,Schedule Delay,1,0.5962816098317958,1
+WO-0092,Atlas Comms,Ground Support Bracket,Cell C,Medium,In Progress,2026-05-14,2026-06-15,2026-06-14,0,True,0,False,False,3,0,96.7,79.6,613.07,13.2,Low,Priority Pressure,0,0.30964295072860315,0
+WO-0093,Viper Ground,Comms Enclosure,Cell E,High,Inspection,2026-04-10,2026-05-02,2026-05-04,2,False,21,True,True,4,2,79.5,98.0,32494.23,93.6,Critical,Supplier / Material Delay,1,0.6000647666820731,1
+WO-0094,Horizon ISR,Sensor Housing,Cell B,Medium,Material Hold,2026-05-08,2026-05-30,2026-05-22,0,True,0,False,False,0,0,98.5,96.7,0.0,5.0,Low,Priority Pressure,0,0.33155334371193174,0
+WO-0095,Viper Ground,Sensor Housing,Cell C,Medium,In Progress,2026-04-12,2026-05-07,2026-05-10,3,True,0,True,True,11,2,71.3,75.3,3672.28,69.6,High,Quality / Rework,1,0.8141875008908719,1
+WO-0096,Atlas Comms,Flight Control Subassembly,Cell A,High,In Progress,2026-05-07,2026-05-21,2026-05-23,2,False,19,False,False,3,0,91.9,83.7,31164.57,65.6,High,Supplier / Material Delay,1,0.612723212042684,1
+WO-0097,Horizon ISR,Sensor Housing,Cell D,Medium,Rework,2026-04-23,2026-05-10,2026-05-14,4,True,0,False,True,2,0,90.8,79.6,243.39,36.6,Medium,Quality / Rework,1,0.6286602970423559,1
+WO-0098,Falcon Shield,Guidance Assembly,Cell A,Medium,In Progress,2026-04-06,2026-04-29,2026-04-27,0,True,0,False,False,0,1,100.0,75.4,853.51,11.8,Low,Priority Pressure,0,0.42373120279232696,0
+WO-0099,Falcon Shield,Guidance Assembly,Cell C,High,In Progress,2026-05-19,2026-06-02,2026-05-30,0,False,24,False,False,6,0,100.0,91.9,23357.77,59.4,High,Supplier / Material Delay,0,0.40267300135534095,0
+WO-0100,Viper Ground,Power Module,Cell C,Medium,Inspection,2026-05-19,2026-06-14,2026-06-17,3,True,0,False,True,5,2,97.0,81.0,3231.62,43.2,Medium,Quality / Rework,1,0.6010699743659116,1
+WO-0101,Atlas Comms,Ground Support Bracket,Cell D,High,Rework,2026-04-12,2026-05-04,2026-05-07,3,True,0,False,False,0,0,82.9,72.8,0.0,34.6,Medium,Priority Pressure,1,0.5004245784300307,1
+WO-0102,Atlas Comms,Sensor Housing,Cell A,Medium,Inspection,2026-05-16,2026-05-28,2026-05-28,0,True,0,False,False,1,1,85.5,74.1,1077.02,18.2,Low,Labor Capacity,0,0.44907235445542254,0
+WO-0103,Viper Ground,Ground Support Bracket,Cell D,High,Ready for Delivery,2026-05-05,2026-05-31,2026-06-02,2,False,16,False,False,3,0,70.6,70.5,19528.89,80.6,Critical,Supplier / Material Delay,1,0.4389651422376479,0
+WO-0104,Horizon ISR,Sensor Housing,Cell D,High,Material Hold,2026-05-04,2026-06-03,2026-05-26,0,True,0,True,False,0,0,100.0,78.0,0.0,23.0,Low,Priority Pressure,0,0.40342851453381773,0
+WO-0105,Falcon Shield,Guidance Assembly,Cell B,Medium,In Progress,2026-05-03,2026-06-06,2026-06-03,0,False,19,False,False,6,1,100.0,97.9,33002.9,56.2,High,Supplier / Material Delay,0,0.3001792095307722,0
+WO-0106,Orion Sensor,Sensor Housing,Cell C,Low,In Progress,2026-04-27,2026-05-28,2026-06-03,6,True,0,True,False,6,3,72.1,85.8,3317.45,54.0,Medium,Schedule Delay,1,0.5432604706857704,1
+WO-0107,Orion Sensor,Power Module,Cell A,High,In Progress,2026-05-23,2026-06-09,2026-06-13,4,False,21,False,False,2,1,94.2,78.5,22640.49,73.4,High,Supplier / Material Delay,1,0.5755062013403089,1
+WO-0108,Falcon Shield,Ground Support Bracket,Cell D,Low,In Progress,2026-05-10,2026-06-05,2026-06-03,0,True,0,False,False,0,2,76.6,72.6,1082.65,19.6,Low,Labor Capacity,0,0.4169114415327605,0
+WO-0109,Orion Sensor,Ground Support Bracket,Cell B,Low,Material Hold,2026-05-12,2026-06-10,2026-06-02,0,False,8,False,True,0,2,91.0,87.2,12130.79,48.8,Medium,Supplier / Material Delay,0,0.2921691212938636,0
+WO-0110,Orion Sensor,Power Module,Cell A,High,Inspection,2026-05-06,2026-06-03,2026-05-27,0,False,14,False,True,0,2,82.9,78.4,21342.98,77.6,Critical,Supplier / Material Delay,0,0.41312313788617094,0
+WO-0111,Viper Ground,Power Module,Cell B,Urgent,Rework,2026-05-03,2026-05-13,2026-05-17,4,True,0,True,False,0,1,85.6,84.0,1008.27,45.6,Medium,Priority Pressure,1,0.7224565333126218,1
+WO-0112,Falcon Shield,Sensor Housing,Cell A,Low,In Progress,2026-05-18,2026-05-29,2026-05-30,1,True,0,False,True,11,1,92.3,74.3,3158.34,42.4,Medium,Quality / Rework,1,0.6509507603679209,1
+WO-0113,Falcon Shield,Comms Enclosure,Cell E,High,Rework,2026-05-13,2026-05-18,2026-05-27,9,True,0,False,False,0,0,86.5,73.7,0.0,48.8,Medium,Schedule Delay,1,0.5434986361053733,1
+WO-0114,Horizon ISR,Comms Enclosure,Cell C,Medium,Rework,2026-05-16,2026-06-04,2026-06-05,1,True,0,False,False,6,1,98.0,80.0,1320.01,23.4,Low,Quality / Rework,1,0.4565072646111783,0
+WO-0115,Falcon Shield,Comms Enclosure,Cell A,High,In Progress,2026-05-15,2026-06-10,2026-06-05,0,False,15,False,False,7,1,75.3,92.0,17346.29,68.6,High,Supplier / Material Delay,0,0.32714577988264665,0
+WO-0116,Horizon ISR,Comms Enclosure,Cell B,Low,In Progress,2026-04-04,2026-04-11,2026-04-14,3,False,20,True,False,0,0,72.1,100.0,32746.59,67.6,High,Supplier / Material Delay,1,0.6185981372094456,1
+WO-0117,Viper Ground,Flight Control Subassembly,Cell A,High,Ready for Delivery,2026-05-21,2026-05-27,2026-05-24,0,True,0,False,False,0,2,100.0,80.0,1185.19,20.6,Low,Priority Pressure,0,0.3956605377663749,0
+WO-0118,Atlas Comms,Power Module,Cell B,Medium,Inspection,2026-05-24,2026-06-20,2026-06-20,0,False,17,False,False,0,3,94.2,88.5,21993.37,53.4,Medium,Supplier / Material Delay,0,0.5466989369836041,1
+WO-0119,Viper Ground,Comms Enclosure,Cell E,Urgent,Material Hold,2026-05-05,2026-05-30,2026-05-16,0,False,16,False,True,10,2,83.1,85.1,32623.2,94.6,Critical,Supplier / Material Delay,0,0.5101719320398301,1
+WO-0120,Atlas Comms,Guidance Assembly,Cell C,High,Inspection,2026-05-24,2026-06-22,2026-06-27,5,True,0,False,False,0,0,85.3,81.1,0.0,31.0,Medium,Schedule Delay,1,0.6185114977301606,1
+WO-0121,Horizon ISR,Ground Support Bracket,Cell D,Medium,Inspection,2026-04-03,2026-05-05,2026-05-08,3,True,0,False,False,6,1,86.7,83.6,2626.29,29.8,Low,Quality / Rework,1,0.577892937616844,1
+WO-0122,Orion Sensor,Comms Enclosure,Cell E,Low,Ready for Delivery,2026-05-22,2026-06-24,2026-06-22,0,False,4,False,False,2,0,55.6,95.5,5621.23,34.4,Medium,Supplier / Material Delay,0,0.43929563106076563,0
+WO-0123,Horizon ISR,Comms Enclosure,Cell B,Urgent,In Progress,2026-05-07,2026-05-31,2026-06-05,5,True,0,True,False,7,2,77.2,73.0,2318.91,71.4,High,Priority Pressure,1,0.6938562665715375,1
+WO-0124,Horizon ISR,Ground Support Bracket,Cell A,Medium,In Progress,2026-05-11,2026-05-16,2026-05-08,0,True,0,False,False,0,2,100.0,76.2,1112.83,14.6,Low,Quality / Rework,0,0.3328798628019479,0
+WO-0125,Horizon ISR,Guidance Assembly,Cell D,High,Ready for Delivery,2026-05-23,2026-06-26,2026-07-02,6,True,0,False,False,0,0,90.3,99.9,0.0,30.2,Medium,Schedule Delay,1,0.5597931061164227,1
+WO-0126,Falcon Shield,Comms Enclosure,Cell B,Low,Inspection,2026-05-22,2026-06-08,2026-05-29,0,False,9,False,False,6,0,97.7,93.5,16095.56,42.0,Medium,Supplier / Material Delay,0,0.2564575601422752,0
+WO-0127,Atlas Comms,Comms Enclosure,Cell C,High,Inspection,2026-05-09,2026-06-02,2026-06-02,0,True,0,False,False,6,2,100.0,100.0,1695.0,25.0,Low,Quality / Rework,0,0.4342141876064667,0
+WO-0128,Horizon ISR,Guidance Assembly,Cell E,Urgent,Inspection,2026-04-02,2026-04-22,2026-04-25,3,True,0,True,False,11,1,85.9,65.2,3295.34,62.8,High,Quality / Rework,1,0.6793009034112111,1
+WO-0129,Falcon Shield,Guidance Assembly,Cell D,Medium,Inspection,2026-05-13,2026-05-19,2026-05-14,0,True,0,False,True,0,2,84.7,85.0,680.6,27.6,Low,Quality / Rework,0,0.47257717947517847,0
+WO-0130,Atlas Comms,Power Module,Cell C,Low,In Progress,2026-04-17,2026-05-19,2026-05-23,4,True,0,False,False,8,1,91.3,100.0,2554.31,26.8,Low,Quality / Rework,1,0.6236723338265981,1
+WO-0131,Orion Sensor,Comms Enclosure,Cell A,Urgent,In Progress,2026-05-15,2026-06-10,2026-06-10,0,True,0,False,False,5,1,74.8,85.5,1631.52,37.8,Medium,Priority Pressure,0,0.3424437210717981,0
+WO-0132,Falcon Shield,Ground Support Bracket,Cell D,Medium,Rework,2026-05-16,2026-06-19,2026-06-10,0,True,0,False,False,0,2,100.0,100.0,950.32,10.6,Low,Quality / Rework,0,0.4108495612035137,0
+WO-0133,Falcon Shield,Ground Support Bracket,Cell D,Urgent,In Progress,2026-04-03,2026-04-26,2026-04-29,3,False,15,False,False,0,1,91.5,98.6,16553.23,70.4,High,Supplier / Material Delay,1,0.5663792981290267,1
+WO-0134,Orion Sensor,Comms Enclosure,Cell D,High,Inspection,2026-04-26,2026-05-21,2026-05-11,0,True,0,True,False,7,1,79.9,87.1,2944.42,36.6,Medium,Quality / Rework,0,0.32028662082832593,0
+WO-0135,Horizon ISR,Power Module,Cell A,Low,In Progress,2026-05-24,2026-06-23,2026-07-16,23,True,0,False,False,0,2,85.3,95.4,1664.53,37.6,Medium,Schedule Delay,1,0.5278450595931521,1
+WO-0136,Horizon ISR,Comms Enclosure,Cell B,Medium,Material Hold,2026-04-16,2026-05-07,2026-05-01,0,True,0,False,True,2,1,98.6,97.0,1256.91,22.6,Low,Quality / Rework,0,0.2759443068796014,0
+WO-0137,Viper Ground,Flight Control Subassembly,Cell C,Medium,In Progress,2026-04-29,2026-05-28,2026-05-28,0,True,0,True,True,4,1,90.2,88.0,1437.26,33.4,Medium,Quality / Rework,0,0.35309415397687016,0
+WO-0138,Atlas Comms,Flight Control Subassembly,Cell E,High,Rework,2026-04-12,2026-04-29,2026-04-25,0,False,18,False,False,3,0,99.8,100.0,30715.64,55.2,High,Supplier / Material Delay,0,0.424312165368207,0
+WO-0139,Horizon ISR,Flight Control Subassembly,Cell D,Low,Rework,2026-04-16,2026-04-29,2026-04-28,0,True,0,False,False,0,2,86.4,100.0,1022.38,5.6,Low,Quality / Rework,0,0.3858595627514089,0
+WO-0140,Falcon Shield,Sensor Housing,Cell A,Medium,Ready for Delivery,2026-04-17,2026-05-03,2026-04-22,0,True,0,False,True,5,0,78.1,100.0,632.8,29.0,Low,Quality / Rework,0,0.5735362552520368,1
+WO-0141,Horizon ISR,Guidance Assembly,Cell B,Low,Inspection,2026-04-28,2026-05-30,2026-05-30,0,True,0,False,False,0,0,91.2,88.7,0.0,0.0,Low,Schedule Delay,0,0.5326847810876228,1
+WO-0142,Orion Sensor,Guidance Assembly,Cell E,Medium,In Progress,2026-04-26,2026-05-25,2026-05-29,4,True,0,False,False,0,0,89.1,88.8,0.0,17.8,Low,Schedule Delay,1,0.4504377410124978,0
+WO-0143,Horizon ISR,Ground Support Bracket,Cell E,Medium,In Progress,2026-05-10,2026-05-17,2026-05-08,0,True,0,False,True,4,3,82.6,100.0,2455.39,36.0,Medium,Quality / Rework,0,0.48958087411829243,0
+WO-0144,Orion Sensor,Ground Support Bracket,Cell D,Low,Material Hold,2026-04-06,2026-04-14,2026-04-09,0,True,0,False,False,7,0,90.3,83.9,896.93,13.8,Low,Quality / Rework,0,0.3578174445852908,0
+WO-0145,Falcon Shield,Comms Enclosure,Cell B,High,Inspection,2026-04-12,2026-04-21,2026-04-23,2,True,0,False,False,2,2,84.9,92.2,1872.3,30.8,Medium,Priority Pressure,1,0.49130644269375306,0
+WO-0146,Horizon ISR,Comms Enclosure,Cell E,Urgent,Rework,2026-05-11,2026-06-11,2026-06-02,0,True,0,False,False,0,0,100.0,74.5,0.0,27.0,Low,Priority Pressure,0,0.4217886190954844,0
+WO-0147,Falcon Shield,Ground Support Bracket,Cell D,High,Ready for Delivery,2026-04-08,2026-04-23,2026-04-26,3,True,0,False,False,7,2,91.6,93.9,3146.19,36.0,Medium,Quality / Rework,1,0.667885326086198,1
+WO-0148,Viper Ground,Power Module,Cell C,High,Ready for Delivery,2026-04-27,2026-05-23,2026-05-16,0,True,0,True,False,0,0,92.7,100.0,0.0,19.0,Low,Priority Pressure,0,0.4721994504000006,0
+WO-0149,Orion Sensor,Ground Support Bracket,Cell B,High,In Progress,2026-05-07,2026-06-04,2026-06-07,3,True,0,False,False,10,0,87.9,96.8,1781.9,34.6,Medium,Quality / Rework,1,0.674533770333093,1
+WO-0150,Atlas Comms,Comms Enclosure,Cell D,Urgent,In Progress,2026-05-07,2026-06-10,2026-06-10,0,True,0,False,True,12,1,85.6,68.8,4102.23,57.8,High,Quality / Rework,0,0.43772551994633707,0
+WO-0151,Atlas Comms,Power Module,Cell E,Urgent,Ready for Delivery,2026-05-04,2026-06-05,2026-06-06,1,True,0,False,False,3,1,90.3,76.7,1890.65,32.2,Medium,Priority Pressure,1,0.5862839186359785,1
+WO-0152,Horizon ISR,Sensor Housing,Cell D,Low,Inspection,2026-04-07,2026-04-24,2026-04-27,3,True,0,False,False,4,2,94.7,91.8,2837.67,20.8,Low,Quality / Rework,1,0.7115964041831775,1
+WO-0153,Orion Sensor,Flight Control Subassembly,Cell A,High,In Progress,2026-05-17,2026-06-17,2026-06-13,0,True,0,False,True,1,2,100.0,65.5,1527.94,39.0,Medium,Quality / Rework,0,0.2941932146731675,0
+WO-0154,Orion Sensor,Ground Support Bracket,Cell A,Urgent,Inspection,2026-04-19,2026-05-14,2026-05-24,10,True,0,False,False,0,0,88.2,72.6,0.0,59.0,High,Schedule Delay,1,0.617696125790765,1
+WO-0155,Falcon Shield,Power Module,Cell D,High,In Progress,2026-04-10,2026-05-08,2026-05-12,4,True,0,False,False,15,1,85.7,98.9,3061.85,42.6,Medium,Quality / Rework,1,0.6207798374218876,1
+WO-0156,Horizon ISR,Ground Support Bracket,Cell E,High,In Progress,2026-04-14,2026-04-21,2026-04-04,0,False,10,True,False,2,1,80.2,100.0,13983.38,65.6,High,Supplier / Material Delay,0,0.3595320366981232,0
+WO-0157,Falcon Shield,Flight Control Subassembly,Cell C,Urgent,In Progress,2026-05-23,2026-06-02,2026-05-29,0,True,0,False,True,0,3,96.2,69.9,3105.3,47.4,Medium,Quality / Rework,0,0.4029838957640687,0
+WO-0158,Viper Ground,Guidance Assembly,Cell C,High,In Progress,2026-04-15,2026-05-13,2026-05-15,2,True,0,False,False,9,0,89.6,61.5,1687.15,39.0,Medium,Quality / Rework,1,0.7757395624796272,1
+WO-0159,Viper Ground,Comms Enclosure,Cell E,High,Material Hold,2026-03-31,2026-04-29,2026-04-22,0,True,0,True,False,1,0,83.0,99.2,139.9,25.4,Low,Priority Pressure,0,0.3592728969810599,0
+WO-0160,Orion Sensor,Guidance Assembly,Cell B,Medium,In Progress,2026-04-11,2026-05-01,2026-05-06,5,True,0,False,False,2,0,96.3,97.9,474.92,23.8,Low,Schedule Delay,1,0.604919956167364,1
+WO-0161,Viper Ground,Sensor Housing,Cell C,Medium,In Progress,2026-04-28,2026-05-21,2026-05-24,3,True,0,False,False,11,3,75.6,85.3,5293.85,43.4,Medium,Quality / Rework,1,0.7992063446503123,1
+WO-0162,Viper Ground,Flight Control Subassembly,Cell E,Low,Rework,2026-04-13,2026-05-11,2026-05-12,1,True,0,True,False,2,0,87.3,82.6,501.8,18.0,Low,Inspection Hold,1,0.6635661583645611,1
+WO-0163,Falcon Shield,Guidance Assembly,Cell B,Medium,Ready for Delivery,2026-05-19,2026-06-08,2026-06-17,9,True,0,False,False,0,2,81.3,90.8,2294.29,44.4,Medium,Schedule Delay,1,0.5081052890139182,1
+WO-0164,Orion Sensor,Comms Enclosure,Cell B,High,In Progress,2026-04-01,2026-04-11,2026-04-14,3,True,0,False,False,2,0,89.2,65.8,384.7,32.4,Medium,Priority Pressure,1,0.5025764194266042,1
+WO-0165,Atlas Comms,Comms Enclosure,Cell B,Urgent,Ready for Delivery,2026-05-24,2026-06-04,2026-06-04,0,True,0,False,True,2,3,100.0,96.8,2722.94,41.2,Medium,Quality / Rework,0,0.47145213129031494,0
+WO-0166,Falcon Shield,Sensor Housing,Cell D,High,Material Hold,2026-04-25,2026-05-24,2026-05-28,4,True,0,False,False,3,0,77.6,100.0,466.3,33.0,Medium,Schedule Delay,1,0.5760132705915648,1
+WO-0167,Falcon Shield,Power Module,Cell A,High,Material Hold,2026-05-01,2026-05-11,2026-05-11,0,True,0,False,False,1,0,68.7,79.9,121.27,26.4,Low,Priority Pressure,0,0.3286709638296551,0
+WO-0168,Atlas Comms,Comms Enclosure,Cell C,Medium,Rework,2026-05-14,2026-05-26,2026-06-03,8,True,0,False,True,8,2,76.3,59.7,3525.93,73.4,High,Quality / Rework,1,0.7916844133173625,1
+WO-0169,Atlas Comms,Ground Support Bracket,Cell B,High,In Progress,2026-04-02,2026-04-16,2026-04-06,0,False,10,True,False,2,1,89.8,96.7,13706.55,60.6,High,Supplier / Material Delay,0,0.38460302652226086,0
+WO-0170,Viper Ground,Comms Enclosure,Cell A,High,In Progress,2026-05-07,2026-06-06,2026-06-29,23,True,0,False,False,1,1,100.0,86.0,899.64,47.2,Medium,Schedule Delay,1,0.5140340078728388,1
+WO-0171,Orion Sensor,Guidance Assembly,Cell E,High,In Progress,2026-05-19,2026-06-17,2026-06-14,0,True,0,True,False,0,2,97.5,90.8,1049.92,24.6,Low,Priority Pressure,0,0.3202849109499662,0
+WO-0172,Falcon Shield,Flight Control Subassembly,Cell E,High,Rework,2026-04-23,2026-05-22,2026-05-20,0,False,7,False,False,4,1,96.5,86.1,10316.91,48.2,Medium,Supplier / Material Delay,0,0.30805228725322426,0
+WO-0173,Orion Sensor,Ground Support Bracket,Cell D,Medium,In Progress,2026-04-22,2026-05-12,2026-05-11,0,True,0,True,False,9,0,94.7,73.1,1288.26,34.6,Medium,Quality / Rework,0,0.4472016297141059,0
+WO-0174,Viper Ground,Power Module,Cell E,Medium,Rework,2026-05-02,2026-06-05,2026-06-05,0,True,0,True,False,4,0,100.0,92.1,698.98,18.6,Low,Inspection Hold,0,0.5396510834337391,1
+WO-0175,Horizon ISR,Ground Support Bracket,Cell B,Medium,In Progress,2026-05-02,2026-05-25,2026-05-21,0,True,0,False,False,10,0,100.0,100.0,2175.28,19.0,Low,Quality / Rework,0,0.5805797313807735,1
+WO-0176,Viper Ground,Guidance Assembly,Cell A,Medium,Ready for Delivery,2026-04-25,2026-05-16,2026-05-24,8,False,3,True,False,5,1,87.5,75.3,5645.58,71.6,High,Schedule Delay,1,0.6681283970990283,1
+WO-0177,Orion Sensor,Flight Control Subassembly,Cell D,Medium,Rework,2026-05-10,2026-06-02,2026-06-01,0,True,0,False,False,0,0,83.0,50.6,0.0,19.0,Low,Labor Capacity,0,0.38200357408168145,0
+WO-0178,Viper Ground,Power Module,Cell D,High,Material Hold,2026-04-14,2026-05-16,2026-05-19,3,True,0,False,False,2,0,87.2,78.0,410.35,27.4,Low,Priority Pressure,1,0.41481380715461275,0
+WO-0179,Horizon ISR,Flight Control Subassembly,Cell B,High,In Progress,2026-05-12,2026-06-12,2026-06-20,8,False,11,True,False,0,0,91.2,100.0,17488.5,83.0,Critical,Supplier / Material Delay,1,0.5960821986596272,1
+WO-0180,Orion Sensor,Comms Enclosure,Cell B,Medium,Material Hold,2026-04-18,2026-05-04,2026-04-30,0,True,0,False,False,4,1,90.4,90.4,1673.28,13.4,Low,Quality / Rework,0,0.2606732680799764,0
+WO-0181,Falcon Shield,Flight Control Subassembly,Cell A,Medium,Ready for Delivery,2026-04-15,2026-04-27,2026-04-20,0,True,0,False,False,3,1,99.3,98.0,1252.12,12.0,Low,Quality / Rework,0,0.3990489072737764,0
+WO-0182,Horizon ISR,Comms Enclosure,Cell D,Low,In Progress,2026-04-29,2026-06-01,2026-05-25,0,True,0,False,False,0,2,69.7,94.7,759.09,15.6,Low,Machine Capacity,0,0.33013073948532357,0
+WO-0183,Viper Ground,Comms Enclosure,Cell C,Urgent,Rework,2026-05-06,2026-06-01,2026-06-04,3,True,0,False,False,0,3,96.0,81.9,1156.28,40.0,Medium,Priority Pressure,1,0.7341546393868956,1
+WO-0184,Orion Sensor,Guidance Assembly,Cell D,Low,Rework,2026-04-09,2026-04-16,2026-04-16,0,True,0,True,False,0,0,92.0,100.0,0.0,8.0,Low,Inspection Hold,0,0.3665337953762623,0
+WO-0185,Atlas Comms,Flight Control Subassembly,Cell B,Medium,Inspection,2026-05-12,2026-06-11,2026-06-26,15,False,12,False,True,11,1,100.0,97.2,20330.05,100.0,Critical,Schedule Delay,1,0.8008547426545972,1
+WO-0186,Falcon Shield,Power Module,Cell A,High,In Progress,2026-04-04,2026-04-27,2026-04-26,0,False,12,False,False,0,2,87.2,76.9,22470.92,60.6,High,Supplier / Material Delay,0,0.2881114849760552,0
+WO-0187,Atlas Comms,Comms Enclosure,Cell D,Urgent,Inspection,2026-04-18,2026-04-23,2026-05-02,9,True,0,False,False,10,0,99.4,92.6,2290.74,60.8,High,Schedule Delay,1,0.6260671488042977,1
+WO-0188,Viper Ground,Comms Enclosure,Cell C,Medium,Ready for Delivery,2026-04-25,2026-05-29,2026-05-31,2,False,4,False,False,6,0,67.1,100.0,4789.88,51.4,Medium,Supplier / Material Delay,1,0.7021217108244768,1
+WO-0189,Viper Ground,Guidance Assembly,Cell A,High,Ready for Delivery,2026-05-16,2026-06-13,2026-06-18,5,True,0,False,False,0,1,91.5,87.0,360.31,29.8,Low,Schedule Delay,1,0.6329160672926148,1
+WO-0190,Viper Ground,Power Module,Cell E,Medium,In Progress,2026-04-18,2026-05-06,2026-05-03,0,True,0,False,False,1,0,82.1,82.0,256.23,15.4,Low,Machine Capacity,0,0.36405769610022815,0
+WO-0191,Viper Ground,Flight Control Subassembly,Cell E,Medium,Rework,2026-05-08,2026-06-09,2026-06-19,10,True,0,False,False,0,1,83.0,73.0,572.18,53.8,Medium,Schedule Delay,1,0.6451041791439458,1
+WO-0192,Orion Sensor,Power Module,Cell D,High,Ready for Delivery,2026-05-15,2026-06-12,2026-06-04,0,True,0,True,False,5,0,99.0,78.3,920.9,30.0,Medium,Priority Pressure,0,0.2446937867055762,0
+WO-0193,Atlas Comms,Guidance Assembly,Cell E,Urgent,Rework,2026-04-14,2026-05-03,2026-05-12,9,False,11,False,True,6,4,57.5,100.0,22355.43,100.0,Critical,Supplier / Material Delay,1,0.6693861190156872,1
+WO-0194,Viper Ground,Power Module,Cell E,Medium,Ready for Delivery,2026-04-05,2026-04-28,2026-04-29,1,False,24,False,False,10,0,100.0,69.7,35390.33,71.2,High,Supplier / Material Delay,1,0.4558180174571285,0
+WO-0195,Horizon ISR,Sensor Housing,Cell D,Medium,In Progress,2026-05-01,2026-06-03,2026-06-14,11,True,0,False,False,12,1,100.0,73.7,2009.78,64.8,High,Schedule Delay,1,0.5392588153977097,1
+WO-0196,Atlas Comms,Sensor Housing,Cell C,High,In Progress,2026-04-12,2026-04-29,2026-05-02,3,True,0,False,False,3,0,63.0,77.8,746.71,38.8,Medium,Priority Pressure,1,0.44193361391342406,0
+WO-0197,Atlas Comms,Comms Enclosure,Cell A,Medium,Rework,2026-04-27,2026-05-26,2026-06-02,7,False,19,False,False,9,1,100.0,73.8,32164.69,91.8,Critical,Supplier / Material Delay,1,0.7026428047842816,1
+WO-0198,Falcon Shield,Power Module,Cell D,Medium,Rework,2026-05-22,2026-06-18,2026-06-10,0,False,11,False,False,6,0,87.5,80.1,11719.84,55.8,High,Supplier / Material Delay,0,0.30531924492372126,0
+WO-0199,Falcon Shield,Ground Support Bracket,Cell C,Medium,In Progress,2026-05-20,2026-06-04,2026-06-18,14,True,0,False,False,6,1,70.8,71.2,1634.28,67.2,High,Schedule Delay,1,0.6465428291993189,1
+WO-0200,Orion Sensor,Guidance Assembly,Cell A,Medium,Inspection,2026-05-08,2026-06-09,2026-06-21,12,True,0,False,False,7,0,89.9,100.0,1172.97,46.8,Medium,Schedule Delay,1,0.5128932187647198,1
+WO-0201,Horizon ISR,Guidance Assembly,Cell B,Medium,In Progress,2026-04-18,2026-05-18,2026-05-15,0,True,0,False,True,3,3,88.2,89.2,3278.15,29.6,Low,Quality / Rework,0,0.6448327208792834,1
+WO-0202,Viper Ground,Comms Enclosure,Cell A,Medium,Material Hold,2026-05-23,2026-06-06,2026-06-08,2,True,0,True,False,5,1,85.7,100.0,1820.38,29.2,Low,Quality / Rework,1,0.6644543989345799,1
+WO-0203,Falcon Shield,Sensor Housing,Cell E,Medium,In Progress,2026-04-02,2026-05-02,2026-05-10,8,False,23,False,False,3,0,87.2,60.1,33581.11,83.8,Critical,Supplier / Material Delay,1,0.43691648664531585,0
+WO-0204,Horizon ISR,Ground Support Bracket,Cell C,Urgent,In Progress,2026-05-13,2026-06-01,2026-06-02,1,True,0,False,False,0,2,79.1,100.0,777.73,31.8,Medium,Priority Pressure,1,0.6196944227562005,1
+WO-0205,Viper Ground,Guidance Assembly,Cell D,Medium,In Progress,2026-04-08,2026-05-09,2026-05-20,11,True,0,False,False,5,3,67.1,94.2,2740.16,62.4,High,Schedule Delay,1,0.7512030791765567,1
+WO-0206,Horizon ISR,Flight Control Subassembly,Cell C,Medium,In Progress,2026-05-06,2026-05-25,2026-05-19,0,True,0,False,False,3,0,82.1,91.9,425.54,14.2,Low,Machine Capacity,0,0.34762572922186574,0
+WO-0207,Viper Ground,Guidance Assembly,Cell A,High,In Progress,2026-04-14,2026-05-10,2026-05-16,6,True,0,False,True,9,3,81.6,89.2,4476.19,68.2,High,Quality / Rework,1,0.7569277608112785,1
+WO-0208,Orion Sensor,Guidance Assembly,Cell C,Medium,In Progress,2026-05-13,2026-06-09,2026-06-20,11,True,0,False,False,2,1,96.8,70.7,1472.02,51.6,Medium,Schedule Delay,1,0.59541001116862,1
+WO-0209,Atlas Comms,Guidance Assembly,Cell E,High,In Progress,2026-04-13,2026-04-22,2026-04-22,0,True,0,True,False,0,0,86.9,78.6,0.0,23.0,Low,Priority Pressure,0,0.37975686545776305,0
+WO-0210,Horizon ISR,Flight Control Subassembly,Cell B,High,Inspection,2026-05-13,2026-06-05,2026-05-27,0,True,0,True,False,0,2,74.0,56.4,793.71,43.6,Medium,Priority Pressure,0,0.5018860832859903,1
+WO-0211,Viper Ground,Flight Control Subassembly,Cell C,Medium,Rework,2026-05-01,2026-05-14,2026-05-19,5,True,0,True,False,0,1,86.9,91.9,1152.08,31.8,Medium,Schedule Delay,1,0.6507247080224245,1
+WO-0212,Orion Sensor,Guidance Assembly,Cell B,Medium,Rework,2026-04-08,2026-05-10,2026-05-10,0,True,0,False,False,0,2,86.7,48.2,2034.98,19.6,Low,Labor Capacity,0,0.5646749110702518,1
+WO-0213,Orion Sensor,Flight Control Subassembly,Cell C,Low,Inspection,2026-04-24,2026-05-12,2026-05-10,0,True,0,False,False,0,0,86.6,89.8,0.0,0.0,Low,Schedule Delay,0,0.36657997879218546,0
+WO-0214,Atlas Comms,Flight Control Subassembly,Cell D,Medium,Rework,2026-04-17,2026-04-24,2026-04-25,1,True,0,False,False,0,0,89.2,78.9,0.0,12.2,Low,Priority Pressure,1,0.529254447115693,1
+WO-0215,Viper Ground,Comms Enclosure,Cell E,Medium,In Progress,2026-04-16,2026-05-19,2026-05-13,0,True,0,True,False,0,0,89.7,78.9,0.0,17.0,Low,Inspection Hold,0,0.3364643546019388,0
+WO-0216,Horizon ISR,Flight Control Subassembly,Cell D,High,In Progress,2026-05-05,2026-05-24,2026-05-17,0,True,0,False,False,2,0,85.9,83.6,354.37,17.8,Low,Priority Pressure,0,0.41581907587332523,0
+WO-0217,Atlas Comms,Ground Support Bracket,Cell B,Low,Ready for Delivery,2026-05-03,2026-05-20,2026-05-12,0,True,0,True,True,0,1,98.3,90.8,340.77,22.8,Low,Quality / Rework,0,0.49404257407422913,0
+WO-0218,Horizon ISR,Power Module,Cell A,Low,In Progress,2026-04-12,2026-04-26,2026-04-28,2,True,0,True,False,0,3,88.5,100.0,2696.49,22.8,Low,Quality / Rework,1,0.6984570009919865,1
+WO-0219,Atlas Comms,Ground Support Bracket,Cell C,Medium,Material Hold,2026-04-06,2026-05-06,2026-04-26,0,True,0,False,False,2,2,100.0,94.9,1088.48,13.4,Low,Quality / Rework,0,0.32164739033921963,0
+WO-0220,Horizon ISR,Flight Control Subassembly,Cell E,High,Rework,2026-05-18,2026-06-13,2026-06-25,12,True,0,False,False,6,1,79.2,96.1,1844.39,59.2,High,Schedule Delay,1,0.6224600456024422,1
+WO-0221,Falcon Shield,Power Module,Cell D,High,Inspection,2026-05-12,2026-06-12,2026-06-08,0,True,0,False,False,8,0,84.2,85.7,991.19,27.2,Low,Quality / Rework,0,0.31019162240447923,0
+WO-0222,Horizon ISR,Comms Enclosure,Cell A,Medium,Rework,2026-04-01,2026-04-30,2026-05-02,2,True,0,False,True,10,3,90.4,74.8,3929.46,54.8,Medium,Quality / Rework,1,0.7758324255519742,1
+WO-0223,Horizon ISR,Flight Control Subassembly,Cell D,Urgent,Inspection,2026-04-19,2026-05-11,2026-05-02,0,True,0,True,False,4,0,78.4,80.7,863.39,40.6,Medium,Priority Pressure,0,0.3482551425355705,0
+WO-0224,Viper Ground,Power Module,Cell E,Medium,In Progress,2026-05-13,2026-05-19,2026-05-24,5,True,0,False,False,0,0,95.0,59.3,0.0,30.0,Medium,Schedule Delay,1,0.48127796438929743,0
+WO-0225,Horizon ISR,Guidance Assembly,Cell A,Medium,Rework,2026-04-24,2026-05-20,2026-05-18,0,True,0,True,True,0,0,78.5,83.4,0.0,34.0,Medium,Quality / Rework,0,0.423036277319502,0
+WO-0226,Viper Ground,Comms Enclosure,Cell E,High,In Progress,2026-04-07,2026-05-10,2026-05-05,0,True,0,False,True,13,3,69.1,92.6,5758.38,57.4,High,Quality / Rework,0,0.4457667051962111,0
+WO-0227,Atlas Comms,Flight Control Subassembly,Cell B,Medium,Material Hold,2026-04-07,2026-05-01,2026-05-10,9,True,0,False,False,15,2,96.1,100.0,3033.19,55.4,High,Schedule Delay,1,0.7034259746495412,1
+WO-0228,Viper Ground,Flight Control Subassembly,Cell D,Medium,Rework,2026-05-15,2026-06-08,2026-06-15,7,False,10,False,True,0,4,100.0,96.5,20067.48,86.6,Critical,Supplier / Material Delay,1,0.7014543746813302,1
+WO-0229,Viper Ground,Guidance Assembly,Cell C,Medium,In Progress,2026-05-15,2026-06-14,2026-06-19,5,True,0,True,False,1,0,86.9,90.7,190.83,30.4,Medium,Schedule Delay,1,0.5679993766150585,1
+WO-0230,Atlas Comms,Comms Enclosure,Cell A,Low,In Progress,2026-04-28,2026-05-15,2026-05-04,0,True,0,False,False,0,1,90.1,93.2,823.56,2.8,Low,Quality / Rework,0,0.3410621435535212,0
+WO-0231,Atlas Comms,Flight Control Subassembly,Cell A,Medium,In Progress,2026-05-03,2026-05-11,2026-05-07,0,True,0,False,False,5,0,90.6,100.0,978.2,12.0,Low,Quality / Rework,0,0.3675430837801534,0
+WO-0232,Orion Sensor,Sensor Housing,Cell E,Medium,Material Hold,2026-04-15,2026-04-22,2026-04-22,0,True,0,True,False,0,1,94.1,100.0,1045.79,15.8,Low,Inspection Hold,0,0.3760627732466848,0
+WO-0233,Atlas Comms,Flight Control Subassembly,Cell E,Medium,Material Hold,2026-04-25,2026-05-22,2026-05-17,0,True,0,False,False,0,1,92.8,79.2,504.02,11.8,Low,Priority Pressure,0,0.4541162974297637,0
+WO-0234,Orion Sensor,Comms Enclosure,Cell B,High,Inspection,2026-05-22,2026-06-07,2026-06-08,1,False,14,False,False,0,0,82.9,92.6,15112.59,59.2,High,Supplier / Material Delay,1,0.5295810019940761,1
+WO-0235,Orion Sensor,Power Module,Cell B,Low,Inspection,2026-05-24,2026-06-24,2026-06-25,1,True,0,False,False,4,0,72.5,90.1,907.67,18.8,Low,Machine Capacity,1,0.3982396230255289,0
+WO-0236,Horizon ISR,Power Module,Cell E,High,Inspection,2026-05-16,2026-05-23,2026-05-21,0,True,0,True,False,0,0,52.8,100.0,0.0,29.0,Low,Priority Pressure,0,0.3672720795477619,0
+WO-0237,Orion Sensor,Comms Enclosure,Cell A,Low,In Progress,2026-04-02,2026-04-22,2026-04-19,0,True,0,False,False,0,0,56.2,100.0,0.0,10.0,Low,Machine Capacity,0,0.3387270061936108,0
+WO-0238,Viper Ground,Comms Enclosure,Cell A,Low,Ready for Delivery,2026-05-17,2026-06-04,2026-05-31,0,False,17,False,True,0,1,99.6,69.1,21038.85,63.8,High,Supplier / Material Delay,0,0.2704840126165062,0
+WO-0239,Falcon Shield,Power Module,Cell C,Urgent,In Progress,2026-05-17,2026-05-24,2026-05-25,1,False,9,False,False,4,1,95.4,100.0,16644.99,63.2,High,Supplier / Material Delay,1,0.6640577994332638,1
+WO-0240,Atlas Comms,Comms Enclosure,Cell C,Low,In Progress,2026-05-15,2026-06-02,2026-05-31,0,True,0,False,False,4,0,94.0,78.5,715.21,9.6,Low,Quality / Rework,0,0.25895713973356327,0
+WO-0241,Horizon ISR,Guidance Assembly,Cell A,Medium,In Progress,2026-05-06,2026-06-05,2026-06-08,3,True,0,False,False,5,3,80.0,87.5,3072.19,35.0,Medium,Quality / Rework,1,0.7652854371102757,1
+WO-0242,Orion Sensor,Comms Enclosure,Cell C,Medium,Material Hold,2026-04-22,2026-05-07,2026-05-13,6,False,20,False,False,10,1,100.0,67.0,33215.51,90.0,Critical,Supplier / Material Delay,1,0.49693602646412677,0
+WO-0243,Horizon ISR,Power Module,Cell B,Urgent,In Progress,2026-05-14,2026-06-12,2026-06-17,5,True,0,False,True,10,2,81.6,64.0,3008.86,79.6,Critical,Quality / Rework,1,0.7529054737380001,1
+WO-0244,Orion Sensor,Ground Support Bracket,Cell C,High,Material Hold,2026-05-04,2026-05-09,2026-05-11,2,True,0,False,False,0,0,87.5,86.7,0.0,17.4,Low,Priority Pressure,1,0.4347520295601678,0
+WO-0245,Orion Sensor,Sensor Housing,Cell A,Medium,In Progress,2026-05-23,2026-06-15,2026-06-11,0,True,0,False,False,0,1,74.5,57.7,459.59,26.8,Low,Machine Capacity,0,0.47257870532272045,0
+WO-0246,Falcon Shield,Power Module,Cell A,Low,In Progress,2026-05-21,2026-06-23,2026-07-03,10,False,6,False,False,7,3,100.0,92.9,8526.18,76.6,Critical,Schedule Delay,1,0.4476275416847767,0
+WO-0247,Orion Sensor,Comms Enclosure,Cell D,Low,In Progress,2026-05-06,2026-06-08,2026-05-28,0,False,11,False,False,0,3,71.8,80.2,20408.19,60.8,High,Supplier / Material Delay,0,0.3195878754076786,0
+WO-0248,Falcon Shield,Comms Enclosure,Cell A,Medium,Rework,2026-04-24,2026-05-11,2026-05-25,14,True,0,False,False,0,1,80.2,71.8,1129.36,53.8,Medium,Schedule Delay,1,0.6779959498236635,1
+WO-0249,Horizon ISR,Ground Support Bracket,Cell C,High,In Progress,2026-04-13,2026-05-04,2026-05-13,9,True,0,False,False,8,0,97.6,77.6,1503.92,55.0,High,Schedule Delay,1,0.4119679241584184,0
+WO-0250,Atlas Comms,Power Module,Cell D,Medium,Rework,2026-04-05,2026-05-03,2026-05-02,0,True,0,False,False,1,0,83.3,83.6,182.36,15.4,Low,Machine Capacity,0,0.44987879704437106,0
+WO-0251,Orion Sensor,Ground Support Bracket,Cell A,Medium,Material Hold,2026-04-06,2026-04-19,2026-04-20,1,True,0,False,False,2,2,71.2,100.0,2371.46,26.6,Low,Machine Capacity,1,0.6896796659548848,1
+WO-0252,Atlas Comms,Sensor Housing,Cell D,Medium,Material Hold,2026-05-10,2026-06-10,2026-06-05,0,False,5,False,True,17,4,93.7,99.1,11854.49,68.2,High,Quality / Rework,0,0.4267291479334949,0
+WO-0253,Horizon ISR,Guidance Assembly,Cell C,Medium,In Progress,2026-05-16,2026-06-02,2026-06-09,7,True,0,True,True,2,2,93.1,86.6,2547.23,55.8,High,Schedule Delay,1,0.6965364585029843,1
+WO-0254,Horizon ISR,Sensor Housing,Cell A,Urgent,Inspection,2026-04-13,2026-05-12,2026-05-03,0,True,0,False,False,10,0,94.0,100.0,1559.31,32.0,Medium,Priority Pressure,0,0.47869746776358874,0
+WO-0255,Viper Ground,Comms Enclosure,Cell E,Medium,In Progress,2026-04-19,2026-05-09,2026-05-17,8,True,0,False,True,0,4,96.3,100.0,3740.03,53.8,Medium,Schedule Delay,1,0.5603125088300324,1
+WO-0256,Orion Sensor,Flight Control Subassembly,Cell C,Low,Inspection,2026-05-01,2026-05-06,2026-05-03,0,True,0,False,False,3,1,86.7,79.6,1401.75,11.0,Low,Quality / Rework,0,0.28020061877193364,0
+WO-0257,Orion Sensor,Power Module,Cell C,Low,Ready for Delivery,2026-04-03,2026-04-10,2026-04-07,0,True,0,False,False,7,1,85.1,98.8,2274.88,12.6,Low,Quality / Rework,0,0.4273220885423639,0
+WO-0258,Falcon Shield,Flight Control Subassembly,Cell C,High,In Progress,2026-04-26,2026-05-06,2026-05-07,1,True,0,False,True,0,5,80.6,68.5,5972.03,54.2,Medium,Quality / Rework,1,0.4698603500101269,0
+WO-0259,Atlas Comms,Guidance Assembly,Cell A,High,Ready for Delivery,2026-05-13,2026-05-19,2026-05-21,2,True,0,False,False,8,1,85.6,89.1,2963.09,31.4,Medium,Quality / Rework,1,0.62052646538746,1
+WO-0260,Viper Ground,Guidance Assembly,Cell E,Medium,Rework,2026-05-22,2026-06-02,2026-06-10,8,False,16,False,False,2,0,77.3,93.2,22111.17,78.4,Critical,Supplier / Material Delay,1,0.6803339758708591,1
+WO-0261,Horizon ISR,Sensor Housing,Cell C,High,In Progress,2026-04-05,2026-04-22,2026-04-19,0,False,3,True,False,0,0,94.7,84.1,4761.49,42.2,Medium,Supplier / Material Delay,0,0.4384506801883339,0
+WO-0262,Atlas Comms,Sensor Housing,Cell C,High,Material Hold,2026-05-03,2026-05-08,2026-05-10,2,False,9,False,False,6,2,94.5,89.0,14860.62,65.0,High,Supplier / Material Delay,1,0.62183319646088,1
+WO-0263,Orion Sensor,Guidance Assembly,Cell C,Low,Material Hold,2026-05-10,2026-05-29,2026-06-04,6,True,0,False,False,6,0,92.0,53.2,1066.39,36.6,Medium,Schedule Delay,1,0.637694600303173,1
+WO-0264,Horizon ISR,Sensor Housing,Cell E,High,Inspection,2026-05-12,2026-06-06,2026-06-02,0,True,0,False,True,5,2,75.3,85.4,2678.88,40.6,Medium,Quality / Rework,0,0.6033317103341235,1
+WO-0265,Atlas Comms,Sensor Housing,Cell D,Medium,Material Hold,2026-04-17,2026-05-01,2026-04-25,0,True,0,False,False,0,1,95.4,100.0,504.28,7.8,Low,Priority Pressure,0,0.5603270329917321,1
+WO-0266,Viper Ground,Comms Enclosure,Cell E,High,In Progress,2026-05-15,2026-06-16,2026-06-24,8,True,0,False,False,4,0,80.8,61.5,925.93,56.2,High,Schedule Delay,1,0.6356853799462895,1
+WO-0267,Falcon Shield,Sensor Housing,Cell A,Medium,In Progress,2026-05-05,2026-05-25,2026-05-24,0,True,0,False,False,1,1,100.0,76.5,972.59,13.2,Low,Priority Pressure,0,0.3646978810342719,0
+WO-0268,Horizon ISR,Guidance Assembly,Cell D,High,Rework,2026-05-21,2026-05-29,2026-05-24,0,False,14,False,False,0,1,100.0,100.0,13899.82,53.8,Medium,Supplier / Material Delay,0,0.329835423465654,0
+WO-0269,Atlas Comms,Power Module,Cell D,Urgent,In Progress,2026-05-15,2026-05-22,2026-06-05,14,False,16,False,False,1,1,81.1,88.8,20192.72,99.2,Critical,Supplier / Material Delay,1,0.6370807838045327,1
+WO-0270,Atlas Comms,Flight Control Subassembly,Cell B,High,Inspection,2026-05-17,2026-05-28,2026-05-27,0,True,0,True,False,3,0,100.0,94.0,377.43,23.2,Low,Priority Pressure,0,0.35306645703918693,0
+WO-0271,Falcon Shield,Comms Enclosure,Cell B,High,Ready for Delivery,2026-04-13,2026-05-10,2026-05-13,3,True,0,False,True,6,2,80.7,91.1,2143.18,51.6,Medium,Quality / Rework,1,0.4921308637776963,0
+WO-0272,Viper Ground,Ground Support Bracket,Cell B,Medium,Material Hold,2026-04-16,2026-04-30,2026-04-23,0,True,0,False,False,3,0,100.0,70.3,442.97,18.2,Low,Labor Capacity,0,0.3922097226795163,0
+WO-0273,Orion Sensor,Flight Control Subassembly,Cell A,High,In Progress,2026-05-23,2026-06-14,2026-06-18,4,True,0,False,False,0,1,63.2,86.4,1128.48,36.6,Medium,Schedule Delay,1,0.46281383699817313,0
+WO-0274,Falcon Shield,Comms Enclosure,Cell B,Low,Inspection,2026-05-20,2026-06-03,2026-05-27,0,True,0,False,False,8,1,100.0,84.2,1617.76,18.0,Low,Quality / Rework,0,0.2846101226815945,0
+WO-0275,Viper Ground,Ground Support Bracket,Cell B,Medium,Ready for Delivery,2026-04-10,2026-05-07,2026-05-07,0,False,20,True,False,0,0,100.0,90.5,29768.16,53.0,Medium,Supplier / Material Delay,0,0.3121883401039644,0
+WO-0276,Orion Sensor,Ground Support Bracket,Cell A,Medium,Ready for Delivery,2026-04-01,2026-05-01,2026-05-06,5,True,0,False,False,15,0,74.3,100.0,2156.49,47.0,Medium,Quality / Rework,1,0.6335409749591736,1
+WO-0277,Orion Sensor,Ground Support Bracket,Cell B,High,In Progress,2026-04-04,2026-05-04,2026-04-24,0,True,0,False,False,3,0,76.7,86.5,518.33,20.2,Low,Priority Pressure,0,0.4151531741479933,0
+WO-0278,Viper Ground,Power Module,Cell D,High,Inspection,2026-04-22,2026-05-04,2026-05-10,6,True,0,False,False,5,0,76.3,99.1,933.43,42.2,Medium,Schedule Delay,1,0.5321310294127708,1
+WO-0279,Viper Ground,Sensor Housing,Cell E,Medium,In Progress,2026-04-10,2026-04-26,2026-04-24,0,True,0,False,False,2,1,84.5,80.9,576.87,19.6,Low,Quality / Rework,0,0.37712984013779627,0
+WO-0280,Falcon Shield,Ground Support Bracket,Cell C,Medium,Rework,2026-04-08,2026-04-24,2026-05-06,12,True,0,True,False,0,1,85.2,67.4,865.65,56.8,High,Schedule Delay,1,0.6941152421200635,1
+WO-0281,Orion Sensor,Power Module,Cell C,High,Material Hold,2026-05-07,2026-05-26,2026-05-26,0,True,0,False,False,0,1,100.0,98.4,1082.58,13.8,Low,Priority Pressure,0,0.260565491850661,0
+WO-0282,Orion Sensor,Guidance Assembly,Cell D,High,In Progress,2026-05-03,2026-05-16,2026-05-15,0,True,0,False,False,14,1,77.4,66.1,4196.01,43.8,Medium,Quality / Rework,0,0.3995196736043623,0
+WO-0283,Viper Ground,Flight Control Subassembly,Cell D,High,Material Hold,2026-04-06,2026-05-03,2026-05-03,0,True,0,False,False,2,1,98.7,86.1,1193.22,16.6,Low,Priority Pressure,0,0.3156813599344635,0
+WO-0284,Viper Ground,Comms Enclosure,Cell C,Medium,In Progress,2026-05-19,2026-06-17,2026-06-22,5,True,0,True,True,7,3,81.5,99.0,3297.77,64.2,High,Quality / Rework,1,0.7790860383660755,1
+WO-0285,Horizon ISR,Flight Control Subassembly,Cell E,Low,In Progress,2026-05-13,2026-06-07,2026-06-11,4,True,0,False,False,1,1,100.0,81.2,774.51,21.0,Low,Schedule Delay,1,0.4946107257719864,0
+WO-0286,Orion Sensor,Power Module,Cell E,Urgent,In Progress,2026-04-30,2026-05-24,2026-05-16,0,True,0,False,True,15,2,92.7,89.7,5872.67,51.6,Medium,Quality / Rework,0,0.382096223916073,0
+WO-0287,Falcon Shield,Power Module,Cell A,Medium,Inspection,2026-05-15,2026-06-11,2026-06-12,1,False,7,True,False,0,0,76.2,72.4,12592.4,59.0,High,Supplier / Material Delay,1,0.5753724695179471,1
+WO-0288,Orion Sensor,Sensor Housing,Cell C,Medium,In Progress,2026-05-24,2026-06-17,2026-06-14,0,True,0,False,False,0,1,97.6,60.0,382.19,16.8,Low,Labor Capacity,0,0.37295431914340277,0
+WO-0289,Viper Ground,Comms Enclosure,Cell E,Medium,Inspection,2026-05-16,2026-05-22,2026-06-04,13,True,0,False,False,0,0,100.0,100.0,0.0,37.0,Medium,Schedule Delay,1,0.5602300355300053,1
+WO-0290,Horizon ISR,Power Module,Cell C,Medium,Rework,2026-04-13,2026-04-22,2026-04-24,2,True,0,False,False,2,0,83.2,70.2,458.9,28.2,Low,Labor Capacity,1,0.6592947536800852,1
+WO-0291,Orion Sensor,Comms Enclosure,Cell B,Low,In Progress,2026-03-31,2026-04-25,2026-04-26,1,True,0,True,False,0,3,53.1,94.3,2474.39,29.6,Low,Machine Capacity,1,0.5668172837458565,1
+WO-0292,Viper Ground,Ground Support Bracket,Cell D,High,In Progress,2026-04-08,2026-05-09,2026-05-06,0,True,0,False,False,3,0,98.6,92.9,427.47,15.2,Low,Priority Pressure,0,0.34084282244234654,0
+WO-0293,Horizon ISR,Sensor Housing,Cell C,Medium,Rework,2026-04-06,2026-05-05,2026-05-06,1,False,17,False,False,9,1,97.3,70.5,18945.79,72.6,High,Supplier / Material Delay,1,0.5307007474229144,1
+WO-0294,Horizon ISR,Sensor Housing,Cell A,Medium,In Progress,2026-04-13,2026-04-23,2026-04-23,0,True,0,True,False,8,1,100.0,64.6,1719.59,36.0,Medium,Quality / Rework,0,0.40333224636801446,0
+WO-0295,Falcon Shield,Sensor Housing,Cell A,High,In Progress,2026-04-23,2026-05-03,2026-04-30,0,True,0,False,False,5,2,100.0,86.5,1528.61,23.6,Low,Quality / Rework,0,0.4172514809488003,0
+WO-0296,Atlas Comms,Power Module,Cell E,Medium,Material Hold,2026-04-27,2026-05-12,2026-05-12,0,True,0,False,False,7,1,89.9,73.1,2074.95,26.6,Low,Quality / Rework,0,0.41024871319117845,0
+WO-0297,Viper Ground,Guidance Assembly,Cell E,Urgent,Material Hold,2026-05-22,2026-06-19,2026-07-02,13,True,0,True,False,3,0,92.9,83.3,382.14,66.2,High,Schedule Delay,1,0.5907740619392621,1
+WO-0298,Atlas Comms,Sensor Housing,Cell B,Medium,Ready for Delivery,2026-04-26,2026-05-14,2026-05-19,5,False,17,False,False,4,1,100.0,99.8,17037.09,69.4,High,Supplier / Material Delay,1,0.6701278699050394,1
+WO-0299,Orion Sensor,Ground Support Bracket,Cell C,Medium,Inspection,2026-04-22,2026-04-27,2026-04-29,2,True,0,False,False,0,0,93.0,82.7,0.0,15.4,Low,Schedule Delay,1,0.5729022912956488,1
+WO-0300,Atlas Comms,Ground Support Bracket,Cell D,High,Ready for Delivery,2026-05-16,2026-06-10,2026-06-09,0,False,23,False,False,0,0,91.9,78.5,33929.53,55.0,High,Supplier / Material Delay,0,0.342461300028351,0
+WO-0301,Atlas Comms,Sensor Housing,Cell B,Low,Inspection,2026-04-10,2026-05-11,2026-05-09,0,True,0,True,True,0,2,97.0,91.0,1659.06,25.6,Low,Quality / Rework,0,0.5179098314828738,1
+WO-0302,Horizon ISR,Flight Control Subassembly,Cell C,Low,In Progress,2026-04-09,2026-04-18,2026-04-18,0,False,12,False,False,7,4,85.6,93.5,20901.3,61.0,High,Supplier / Material Delay,0,0.5508270802364422,1
+WO-0303,Viper Ground,Sensor Housing,Cell B,Medium,Inspection,2026-04-02,2026-04-26,2026-04-26,0,False,8,False,False,3,1,79.2,57.7,9978.19,57.2,High,Supplier / Material Delay,0,0.5370859558758607,1
+WO-0304,Falcon Shield,Guidance Assembly,Cell A,Medium,Ready for Delivery,2026-04-14,2026-05-18,2026-05-22,4,True,0,False,False,9,1,89.5,77.2,2839.24,37.2,Medium,Quality / Rework,1,0.6685109352996138,1
+WO-0305,Falcon Shield,Sensor Housing,Cell B,Medium,In Progress,2026-04-12,2026-05-12,2026-05-02,0,False,10,False,False,0,0,81.0,69.8,10168.71,55.0,High,Supplier / Material Delay,0,0.2873641629245323,0
+WO-0306,Atlas Comms,Flight Control Subassembly,Cell C,Medium,Material Hold,2026-04-02,2026-04-12,2026-04-26,14,False,20,False,True,12,2,95.7,92.3,38383.26,100.0,Critical,Supplier / Material Delay,1,0.7172090704175177,1
+WO-0307,Atlas Comms,Comms Enclosure,Cell C,Urgent,In Progress,2026-05-14,2026-06-13,2026-06-12,0,False,6,False,False,1,0,73.2,95.5,9293.63,55.8,High,Supplier / Material Delay,0,0.590153463979221,1
+WO-0308,Falcon Shield,Guidance Assembly,Cell B,Medium,In Progress,2026-04-10,2026-05-02,2026-04-22,0,False,3,True,False,0,2,87.4,92.8,3975.85,37.8,Medium,Supplier / Material Delay,0,0.37375500109688,0
+WO-0309,Horizon ISR,Flight Control Subassembly,Cell B,Medium,Ready for Delivery,2026-05-20,2026-06-15,2026-06-27,12,False,6,True,False,0,1,82.1,100.0,9922.33,79.2,Critical,Schedule Delay,1,0.5616294788392998,1
+WO-0310,Viper Ground,Ground Support Bracket,Cell D,Medium,Rework,2026-04-30,2026-05-23,2026-05-27,4,True,0,False,False,0,1,74.9,97.1,644.55,30.6,Medium,Schedule Delay,1,0.5880607723364094,1
+WO-0311,Atlas Comms,Flight Control Subassembly,Cell C,Medium,Inspection,2026-05-11,2026-05-25,2026-05-30,5,True,0,False,False,0,2,72.0,70.7,2216.66,45.6,Medium,Schedule Delay,1,0.6426067292639831,1
+WO-0312,Horizon ISR,Ground Support Bracket,Cell A,Low,Material Hold,2026-05-07,2026-05-24,2026-05-30,6,True,0,True,False,2,1,86.2,75.5,1322.76,36.8,Medium,Schedule Delay,1,0.5806305809062563,1
+WO-0313,Viper Ground,Comms Enclosure,Cell B,Medium,In Progress,2026-04-02,2026-05-06,2026-05-11,5,True,0,False,True,2,3,70.5,60.6,1532.97,63.2,High,Quality / Rework,1,0.7397632242775904,1
+WO-0314,Orion Sensor,Sensor Housing,Cell B,Low,In Progress,2026-04-04,2026-05-04,2026-05-06,2,False,4,False,True,2,5,94.5,55.6,11366.18,65.8,High,Quality / Rework,1,0.655367718060006,1
+WO-0315,Orion Sensor,Power Module,Cell C,Medium,In Progress,2026-05-15,2026-05-31,2026-05-30,0,True,0,False,False,4,3,73.0,86.3,1483.84,29.0,Low,Quality / Rework,0,0.4205393390529826,0
+WO-0316,Horizon ISR,Comms Enclosure,Cell A,High,In Progress,2026-05-08,2026-06-09,2026-06-07,0,True,0,False,False,10,0,71.7,91.8,2361.92,35.0,Medium,Quality / Rework,0,0.5033617194378289,1
+WO-0317,Orion Sensor,Comms Enclosure,Cell C,High,Ready for Delivery,2026-04-17,2026-05-09,2026-05-10,1,True,0,True,False,11,0,97.5,100.0,1705.52,37.6,Medium,Quality / Rework,1,0.4621832800407573,0
+WO-0318,Falcon Shield,Comms Enclosure,Cell D,High,In Progress,2026-05-17,2026-05-28,2026-05-20,0,True,0,True,False,1,1,84.1,84.9,906.95,32.2,Medium,Priority Pressure,0,0.30131008667802556,0
+WO-0319,Orion Sensor,Guidance Assembly,Cell C,Medium,In Progress,2026-04-29,2026-05-07,2026-05-12,5,True,0,False,True,11,4,73.9,75.0,4433.24,73.6,High,Quality / Rework,1,0.6351372780080731,1
+WO-0320,Horizon ISR,Power Module,Cell B,Low,Inspection,2026-05-01,2026-05-24,2026-05-31,7,True,0,True,False,4,1,82.2,87.7,1940.89,43.8,Medium,Schedule Delay,1,0.6204593118046271,1
+WO-0321,Orion Sensor,Guidance Assembly,Cell E,Urgent,Inspection,2026-05-13,2026-05-21,2026-05-23,2,True,0,False,False,0,2,81.4,94.5,1621.4,35.0,Medium,Priority Pressure,1,0.5576793607050751,1
+WO-0322,Falcon Shield,Guidance Assembly,Cell C,High,In Progress,2026-04-10,2026-05-07,2026-05-14,7,True,0,True,False,0,3,92.6,84.1,1467.52,53.8,Medium,Schedule Delay,1,0.6266373398872968,1
+WO-0323,Viper Ground,Comms Enclosure,Cell B,Medium,In Progress,2026-04-12,2026-05-05,2026-04-29,0,False,14,False,False,3,1,91.5,73.4,23354.03,61.0,High,Supplier / Material Delay,0,0.37429881733994563,0
+WO-0324,Orion Sensor,Guidance Assembly,Cell B,Urgent,Inspection,2026-05-11,2026-05-22,2026-05-22,0,True,0,True,True,6,2,93.2,87.5,2962.52,52.0,Medium,Quality / Rework,0,0.4398872424381349,0
+WO-0325,Horizon ISR,Sensor Housing,Cell A,High,In Progress,2026-05-24,2026-06-13,2026-06-07,0,True,0,False,False,1,0,61.4,80.3,201.82,26.4,Low,Priority Pressure,0,0.4172317169247821,0
+WO-0326,Atlas Comms,Sensor Housing,Cell D,Medium,Material Hold,2026-05-02,2026-06-04,2026-06-07,3,False,7,False,False,3,0,90.6,81.7,9566.7,51.6,Medium,Supplier / Material Delay,1,0.49659344433919933,0
+WO-0327,Horizon ISR,Flight Control Subassembly,Cell E,High,In Progress,2026-05-12,2026-05-20,2026-05-16,0,True,0,False,False,0,0,90.7,77.9,0.0,15.0,Low,Priority Pressure,0,0.32837070355235687,0
+WO-0328,Falcon Shield,Power Module,Cell D,High,In Progress,2026-04-25,2026-05-24,2026-05-27,3,True,0,False,False,0,0,87.7,67.4,0.0,29.6,Low,Priority Pressure,1,0.43015997586455956,0
+WO-0329,Orion Sensor,Power Module,Cell B,Medium,Material Hold,2026-04-25,2026-05-08,2026-05-15,7,True,0,True,True,0,1,88.6,100.0,980.68,50.2,Medium,Schedule Delay,1,0.5582376824357543,1
+WO-0330,Viper Ground,Power Module,Cell E,High,Inspection,2026-05-21,2026-05-29,2026-05-26,0,False,21,False,False,3,1,81.3,92.7,32293.42,63.0,High,Supplier / Material Delay,0,0.3906216536786606,0
+WO-0331,Atlas Comms,Power Module,Cell E,High,In Progress,2026-04-10,2026-04-21,2026-04-26,5,False,18,False,False,0,0,75.4,74.4,20325.55,81.0,Critical,Supplier / Material Delay,1,0.6291392857865468,1
+WO-0332,Falcon Shield,Flight Control Subassembly,Cell C,Low,In Progress,2026-04-07,2026-04-30,2026-04-26,0,True,0,False,True,0,2,90.2,99.8,1301.13,17.6,Low,Quality / Rework,0,0.31921427784629025,0
+WO-0333,Orion Sensor,Power Module,Cell B,Low,Ready for Delivery,2026-04-23,2026-05-02,2026-05-02,0,False,17,False,False,1,0,95.6,79.4,16628.05,45.4,Medium,Supplier / Material Delay,0,0.35259060189895436,0
+WO-0334,Orion Sensor,Comms Enclosure,Cell D,Low,In Progress,2026-04-27,2026-05-28,2026-05-22,0,True,0,False,True,0,2,67.7,70.3,872.54,36.6,Medium,Quality / Rework,0,0.33024113989109505,0
+WO-0335,Orion Sensor,Sensor Housing,Cell C,High,Rework,2026-05-07,2026-05-15,2026-05-15,0,True,0,False,True,3,2,59.0,86.3,2322.59,42.8,Medium,Quality / Rework,0,0.4139480888023785,0
+WO-0336,Horizon ISR,Power Module,Cell A,Urgent,Inspection,2026-04-17,2026-04-30,2026-05-04,4,True,0,True,False,0,0,82.0,71.9,0.0,52.8,Medium,Priority Pressure,1,0.5333150221749384,1
+WO-0337,Horizon ISR,Flight Control Subassembly,Cell D,High,Rework,2026-04-21,2026-04-28,2026-04-28,0,False,14,False,True,0,2,99.8,66.4,21297.5,77.6,Critical,Supplier / Material Delay,0,0.3037180514313886,0
+WO-0338,Horizon ISR,Flight Control Subassembly,Cell D,High,In Progress,2026-05-09,2026-05-26,2026-06-06,11,True,0,False,False,3,1,85.7,100.0,1680.09,50.0,Medium,Schedule Delay,1,0.5393053240106047,1
+WO-0339,Falcon Shield,Flight Control Subassembly,Cell D,High,In Progress,2026-05-24,2026-06-11,2026-06-06,0,False,10,True,False,7,1,90.8,69.1,14758.61,76.6,Critical,Supplier / Material Delay,0,0.24782155000176725,0
+WO-0340,Falcon Shield,Power Module,Cell C,Medium,In Progress,2026-05-02,2026-06-03,2026-06-05,2,True,0,True,False,0,0,76.9,100.0,0.0,24.4,Low,Inspection Hold,1,0.5875747074655805,1
+WO-0341,Atlas Comms,Comms Enclosure,Cell D,Low,In Progress,2026-05-18,2026-06-16,2026-06-19,3,True,0,False,False,10,1,82.9,79.7,2989.21,35.4,Medium,Quality / Rework,1,0.5804546508497703,1
+WO-0342,Horizon ISR,Sensor Housing,Cell D,High,Material Hold,2026-04-10,2026-05-08,2026-05-20,12,True,0,False,True,9,5,97.4,87.8,4996.83,81.6,Critical,Quality / Rework,1,0.6984539040084232,1
+WO-0343,Atlas Comms,Power Module,Cell C,Urgent,In Progress,2026-05-09,2026-05-28,2026-05-21,0,True,0,False,False,4,1,95.3,100.0,1498.41,26.4,Low,Priority Pressure,0,0.5819084646684017,1
+WO-0344,Horizon ISR,Sensor Housing,Cell D,Urgent,Material Hold,2026-05-24,2026-06-15,2026-06-29,14,True,0,False,False,0,1,100.0,60.5,793.9,61.8,High,Schedule Delay,1,0.5004305643550487,1
+WO-0345,Orion Sensor,Comms Enclosure,Cell C,Low,In Progress,2026-04-07,2026-04-17,2026-04-07,0,True,0,False,False,0,0,84.9,83.0,0.0,9.0,Low,Machine Capacity,0,0.2811295446664559,0
+WO-0346,Atlas Comms,Comms Enclosure,Cell C,Medium,In Progress,2026-05-23,2026-06-21,2026-06-17,0,True,0,False,False,6,1,88.5,100.0,1229.91,16.2,Low,Quality / Rework,0,0.3926516597285386,0
+WO-0347,Falcon Shield,Comms Enclosure,Cell D,Urgent,Ready for Delivery,2026-05-03,2026-05-18,2026-05-12,0,True,0,False,True,15,0,100.0,85.7,2283.83,46.0,Medium,Quality / Rework,0,0.481569998486823,0
+WO-0348,Viper Ground,Ground Support Bracket,Cell A,Low,Inspection,2026-05-04,2026-05-28,2026-06-03,6,True,0,False,False,4,0,77.3,96.1,786.36,29.8,Low,Schedule Delay,1,0.6022864346658627,1
+WO-0349,Orion Sensor,Flight Control Subassembly,Cell A,Medium,Inspection,2026-04-20,2026-05-02,2026-04-30,0,True,0,True,False,14,0,95.7,85.8,3080.8,29.0,Low,Quality / Rework,0,0.4189427532158402,0
+WO-0350,Horizon ISR,Guidance Assembly,Cell D,Low,In Progress,2026-05-21,2026-06-18,2026-06-12,0,True,0,False,False,0,0,89.1,82.3,0.0,4.0,Low,Labor Capacity,0,0.47052408516866895,0
