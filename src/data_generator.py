@@ -5,8 +5,6 @@ import pandas as pd
 def generate_work_orders(num_orders: int = 350, seed: int = 42) -> pd.DataFrame:
     """
     Generate synthetic defense production work order data.
-
-    The dataset is fictional and designed for portfolio demonstration only.
     """
     np.random.seed(seed)
 
